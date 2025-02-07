@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #descandantselector p{
+            color: blueviolet;
+            font-style: italic;
+        }
+        div > p{
+            color: pink;
+        }
+        h1+p{
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Descendant selector</h1>
+    <div id="descandantselector">
+        <p>This is parent</p>
+        <div>
+            <p>This is child</p>
+            <h5>heading</h5>
+            <div>
+                <p>This is grand child</p>
+            </div>
+        </div>
+        
+    </div>
+    <div id="child selector">
+        <h1>child selector</h1>
+        <p>this is paragraph</p>
+        <span>
+            <p>this is next paragraph</p>
+        </span>
+    </div>
+    <h1>adjacent sibling selector</h1>
+    <p>adjacent to sibling</p>
+    <p>not adjacent</p>
+
+</html>
